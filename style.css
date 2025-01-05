@@ -1,0 +1,41 @@
+.all{
+    font-family: Roboto,'Times New Roman', Times, serif;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;  /*1F2937*/
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 800;
+    justify-content: flex-start;
+    margin-left: 20px;
+    
+
+}
+
+.headerlinks{
+    align-items: center; 
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.link{
+    font-size: 16px;
+
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
